@@ -6,7 +6,7 @@ The authorized-keys.sh script will phone home to a git repo to retrieve all of t
 
 Install and use this script by allowing the root user on your base image access to your repo, and install this script in /usr/local/bin/ on your base image.  Then create a link to the script in /etc/cron.hourly/
 
-Add the public keys of your users to this repo, and voila, you have solved a major security issue. 
+Add the public keys of your users to (a branch or fork of) this repo, and voila, you have solved a major security issue. 
 
 If you would like, you can also set up google authenticator along with this for MFA. Better security, no AD or LDAP admins blocking progress.
 
